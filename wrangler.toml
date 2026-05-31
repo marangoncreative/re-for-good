@@ -1,0 +1,8 @@
+# Worker projesi: statik dosyalar dist/ klasöründen sunulur.
+# name değerini Cloudflare'deki Worker proje adınızla aynı yapın.
+
+name = "re-for-good"
+compatibility_date = "2026-05-30"
+
+[assets]
+directory = "./dist"
