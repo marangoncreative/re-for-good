@@ -31,9 +31,9 @@ export default function Navigation() {
           ))}
           <a
             href="/tevere-game"
-            className="inline-flex items-center justify-center text-xs px-5 py-2 rounded font-semibold text-white bg-[#C8A96A] hover:bg-[#b8995a] transition-colors"
+            className="inline-flex items-center justify-center text-xs px-5 py-2 rounded font-semibold font-mono bg-black text-[#22C55E] border border-[#22C55E] hover:bg-[#22C55E] hover:text-black transition-colors"
           >
-            ▶ teve[RE] Game
+            teve[RE] Game
           </a>
           <a
             href="#"
@@ -67,10 +67,10 @@ export default function Navigation() {
           ))}
           <a
             href="/tevere-game"
-            className="block text-sm font-semibold text-[#C8A96A] hover:text-white"
+            className="inline-block text-sm font-semibold font-mono bg-black text-[#22C55E] border border-[#22C55E] px-4 py-2 rounded hover:bg-[#22C55E] hover:text-black transition-colors"
             onClick={() => setMobileOpen(false)}
           >
-            ▶ teve[RE] Game
+            teve[RE] Game
           </a>
           <a href="#" className="btn-primary text-xs px-5 py-2 inline-block">
             Get RE Token

@@ -77,9 +77,9 @@ export default function Footer() {
               </p>
               <a
                 href="/tevere-game"
-                className="text-xs text-[#C8A96A] hover:text-white transition-colors flex items-center gap-1 mt-4"
+                className="inline-block text-xs font-mono bg-black text-[#22C55E] border border-[#22C55E] px-3 py-1.5 rounded hover:bg-[#22C55E] hover:text-black transition-colors mt-4"
               >
-                <span>teve[RE] Game →</span>
+                teve[RE] Game
               </a>
               <p className="text-[10px] text-white/40 mt-1">
                 Play the Tevere mining prototype

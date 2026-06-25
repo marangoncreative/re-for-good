@@ -32,9 +32,9 @@ export default function HeroSection() {
           </a>
           <a
             href="/tevere-game"
-            className="inline-flex items-center justify-center gap-2 px-7 py-3 rounded text-sm font-semibold text-white transition-colors duration-200 bg-[#C8A96A] hover:bg-[#b8995a]"
+            className="inline-flex items-center justify-center px-7 py-3 rounded text-sm font-semibold font-mono bg-black text-[#22C55E] border border-[#22C55E] transition-colors duration-200 hover:bg-[#22C55E] hover:text-black"
           >
-            ▶ Play teve[RE] Game
+            Play teve[RE] Game
           </a>
           <a href="#" className="btn-outline px-7 py-3">
             Get RE Token
