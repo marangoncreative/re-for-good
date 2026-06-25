@@ -30,6 +30,12 @@ export default function Navigation() {
             </a>
           ))}
           <a
+            href="/tevere-game"
+            className="inline-flex items-center justify-center text-xs px-5 py-2 rounded font-semibold text-white bg-[#C8A96A] hover:bg-[#b8995a] transition-colors"
+          >
+            ▶ teve[RE] Game
+          </a>
+          <a
             href="#"
             className="btn-primary text-xs px-5 py-2"
           >
@@ -59,6 +65,13 @@ export default function Navigation() {
               {link.label}
             </a>
           ))}
+          <a
+            href="/tevere-game"
+            className="block text-sm font-semibold text-[#C8A96A] hover:text-white"
+            onClick={() => setMobileOpen(false)}
+          >
+            ▶ teve[RE] Game
+          </a>
           <a href="#" className="btn-primary text-xs px-5 py-2 inline-block">
             Get RE Token
           </a>
