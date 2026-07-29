@@ -109,7 +109,7 @@ export default function ProjectsSection() {
                   Every material and process used in this chess set is recorded on the blockchain. Only 7 editions exist.
                 </p>
                 <div className="flex flex-wrap gap-3">
-                  <a href="/deed/RE-LAB-2026-002" className="btn-primary text-xs px-6 py-3 w-fit">
+                  <a href="/deed/RE-LAB-2026-001" className="btn-primary text-xs px-6 py-3 w-fit">
                     View Digital Deed
                   </a>
                   <a href="https://www.vinted.it/items/9043786790-27-of-7-hills-of-rome-collectable-chess-set?referrer=catalog" target="_blank" rel="noopener noreferrer" className="btn-outline text-xs px-6 py-3 w-fit">
