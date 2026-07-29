@@ -1,8 +1,10 @@
 import { useEffect, useRef } from 'react'
+import { Routes, Route } from 'react-router'
 import Lenis from 'lenis'
 import gsap from 'gsap'
 import { ScrollTrigger } from 'gsap/ScrollTrigger'
 import Home from './pages/Home'
+import DeedPage from './pages/DeedPage'
 
 gsap.registerPlugin(ScrollTrigger)
 
@@ -18,5 +20,10 @@ export default function App() {
     return () => { lenis.destroy() }
   }, [])
 
-  return <Home />
+  return (
+    <Routes>
+      <Route path="/" element={<Home />} />
+      <Route path="/deed/:id" element={<DeedPage />} />
+    </Routes>
+  )
 }

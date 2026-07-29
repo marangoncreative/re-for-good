@@ -165,8 +165,8 @@ export default function ProjectsSection() {
                 <p className="text-sm text-[#4B5563] leading-relaxed mb-4">
                   <strong>"Ciao Vicino!"</strong> workshops let community members participate in creation and mint their contributions as NFTs.
                 </p>
-                <a href="#" className="btn-primary text-xs px-6 py-3 w-fit">
-                  Book a Visit
+                <a href="/#impact" className="btn-primary text-xs px-6 py-3 w-fit">
+                  View Digital Deeds
                 </a>
               </div>
             </div>

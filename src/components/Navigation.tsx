@@ -1,10 +1,11 @@
 import { useState } from 'react'
 
 const navLinks = [
-  { label: 'About', href: '#about' },
-  { label: 'Projects', href: '#projects' },
-  { label: 'Tokenomics', href: '#tokenomics' },
-  { label: 'Community', href: '#community' },
+  { label: 'About', href: '/#about' },
+  { label: 'Projects', href: '/#projects' },
+  { label: 'Impact', href: '/#impact' },
+  { label: 'Tokenomics', href: '/#tokenomics' },
+  { label: 'Community', href: '/#community' },
 ]
 
 export default function Navigation() {
@@ -14,7 +15,7 @@ export default function Navigation() {
     <nav className="bg-[#1B5E2A] text-white">
       <div className="max-w-6xl mx-auto px-6 h-14 flex items-center justify-between">
         {/* Logo */}
-        <a href="#" className="text-2xl font-bold tracking-tight">
+        <a href="/" className="text-2xl font-bold tracking-tight">
           RE
         </a>
 

@@ -17,7 +17,7 @@ const partners = [
 const links = [
   { label: 'RE Shop', href: '#' },
   { label: 'Ciao Vicino! Workshops', href: '#' },
-  { label: 'Proof of Impact', href: '#' },
+  { label: 'Proof of Impact', href: '/#impact' },
   { label: 'RE-Scholarship', href: '#' },
 ]
 

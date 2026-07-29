@@ -23,10 +23,16 @@ export default function Footer() {
               Navigate
             </h4>
             <ul className="space-y-2">
-              {['About', 'Projects', 'Tokenomics', 'Community'].map((item) => (
-                <li key={item}>
-                  <a href={`#${item.toLowerCase()}`} className="text-sm text-white/70 hover:text-white transition-colors">
-                    {item}
+              {[
+                { label: 'About', href: '/#about' },
+                { label: 'Projects', href: '/#projects' },
+                { label: 'Impact', href: '/#impact' },
+                { label: 'Tokenomics', href: '/#tokenomics' },
+                { label: 'Community', href: '/#community' },
+              ].map((item) => (
+                <li key={item.label}>
+                  <a href={item.href} className="text-sm text-white/70 hover:text-white transition-colors">
+                    {item.label}
                   </a>
                 </li>
               ))}
@@ -55,10 +61,15 @@ export default function Footer() {
               Resources
             </h4>
             <ul className="space-y-2">
-              {['Whitepaper', 'RE Shop', 'Proof of Impact', 'Documentation'].map((item) => (
-                <li key={item}>
-                  <a href="#" className="text-sm text-white/70 hover:text-white transition-colors">
-                    {item}
+              {[
+                { label: 'Whitepaper', href: '#' },
+                { label: 'RE Shop', href: '#' },
+                { label: 'Proof of Impact', href: '/#impact' },
+                { label: 'Documentation', href: '#' },
+              ].map((item) => (
+                <li key={item.label}>
+                  <a href={item.href} className="text-sm text-white/70 hover:text-white transition-colors">
+                    {item.label}
                   </a>
                 </li>
               ))}

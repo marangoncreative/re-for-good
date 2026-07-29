@@ -7,6 +7,7 @@ import CitizensSection from '../sections/CitizensSection'
 import BusinessesSection from '../sections/BusinessesSection'
 import ArtistsSection from '../sections/ArtistsSection'
 import ProjectsSection from '../sections/ProjectsSection'
+import ImpactSection from '../sections/ImpactSection'
 import TokenomicsSection from '../sections/TokenomicsSection'
 import CommunitySection from '../sections/CommunitySection'
 
@@ -22,6 +23,7 @@ export default function Home() {
         <BusinessesSection />
         <ArtistsSection />
         <ProjectsSection />
+        <ImpactSection />
         <TokenomicsSection />
         <CommunitySection />
       </main>
