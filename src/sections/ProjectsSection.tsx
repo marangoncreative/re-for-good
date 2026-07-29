@@ -108,9 +108,14 @@ export default function ProjectsSection() {
                 <p className="text-sm text-[#4B5563] leading-relaxed mb-4">
                   Every material and process used in this chess set is recorded on the blockchain. Only 7 editions exist.
                 </p>
-                <a href="https://www.vinted.it/items/9043786790-27-of-7-hills-of-rome-collectable-chess-set?referrer=catalog" target="_blank" rel="noopener noreferrer" className="btn-primary text-xs px-6 py-3 w-fit">
-                  Purchase
-                </a>
+                <div className="flex flex-wrap gap-3">
+                  <a href="/deed/RE-LAB-2026-002" className="btn-primary text-xs px-6 py-3 w-fit">
+                    View Digital Deed
+                  </a>
+                  <a href="https://www.vinted.it/items/9043786790-27-of-7-hills-of-rome-collectable-chess-set?referrer=catalog" target="_blank" rel="noopener noreferrer" className="btn-outline text-xs px-6 py-3 w-fit">
+                    Purchase
+                  </a>
+                </div>
               </div>
             </div>
           </div>

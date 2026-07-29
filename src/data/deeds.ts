@@ -13,11 +13,13 @@ export type Deed = {
   date: string
   status: 'Certified' | 'In progress'
   image: string
+  images?: string[]
   summary: string
   interventions: { title: string; detail: string }[]
   impacts: DeedImpact[]
   standards: string
   blockchainNote: string
+  link?: { label: string; href: string }
 }
 
 export const deeds: Deed[] = [
@@ -79,6 +81,75 @@ export const deeds: Deed[] = [
     standards: 'Museum-level conservation · Full reversibility · Documentary integrity',
     blockchainNote:
       'Lifecycle, provenance, and restoration journey will soon be verifiable on-chain. This Digital Deed is the off-chain record today.',
+  },
+  {
+    id: 'RE-LAB-2026-002',
+    title: '7 Hills of Roma',
+    subtitle: 'Limited-edition chess set · 7 of 7',
+    material: 'Pinus pinea · recycled Roman plastic · Roman travertine',
+    workshop: 'RE Lab × Ridaje Roma',
+    date: '2026',
+    status: 'Certified',
+    image: '/assets/chess-1.jpg',
+    images: [
+      '/assets/chess-1.jpg',
+      '/assets/chess-2.jpg',
+      '/assets/chess-3.jpg',
+      '/assets/chess-4.jpg',
+    ],
+    summary:
+      'Fallen Pinus pinea of Rome, Rome’s plastic waste, and Roman travertine transformed into a limited chess set for the Seven Hills — only seven editions exist.',
+    interventions: [
+      {
+        title: 'Pinus pinea wood',
+        detail: 'Fallen umbrella pines of Rome shaped into wooden pieces — urban timber given a second life.',
+      },
+      {
+        title: 'Recycled Roman plastic',
+        detail: 'Local plastic waste reformed into chess pieces instead of entering landfill streams.',
+      },
+      {
+        title: 'Roman travertine',
+        detail: 'Travertine stone of Rome integrated as a material of place, weight, and permanence.',
+      },
+      {
+        title: 'Seven Hills edition',
+        detail: 'Seven unique editions — one for each of the legendary hills of Rome.',
+      },
+      {
+        title: 'Collaborative craft',
+        detail: 'Produced with Ridaje Roma — local craft meeting regenerative design.',
+      },
+    ],
+    impacts: [
+      {
+        label: 'Circular economy',
+        value: '3 waste streams upcycled',
+        note: 'Fallen trees, plastic waste, and stone offcuts turned into a collectible cultural object.',
+      },
+      {
+        label: 'Carbon (estimate)',
+        value: '~15–30 kg CO₂e avoided',
+        note: 'Vs. virgin materials + landfill fate for plastic and unused timber. Full LCA forthcoming.',
+      },
+      {
+        label: 'Cultural heritage',
+        value: 'Seven Hills of Rome',
+        note: 'Materials and narrative rooted in the city — a playable homage to Roman identity.',
+      },
+      {
+        label: 'Local regeneration',
+        value: 'Rome → Rome',
+        note: 'Materials sourced and transformed in Rome, keeping value in the local circular economy.',
+      },
+    ],
+    standards: 'Circular design · Local materials · Limited edition of 7 · Documented provenance',
+    blockchainNote:
+      'Every material and process will soon be trackable on-chain. This Digital Deed is the off-chain record of provenance today.',
+    link: {
+      label: 'Purchase edition',
+      href: 'https://www.vinted.it/items/9043786790-27-of-7-hills-of-rome-collectable-chess-set?referrer=catalog',
+    },
   },
 ]
 

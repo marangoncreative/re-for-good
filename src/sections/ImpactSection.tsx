@@ -44,11 +44,24 @@ export default function ImpactSection() {
               className="impact-card bg-white rounded-xl overflow-hidden border border-[#22C55E]/20"
             >
               <div className="grid grid-cols-1 md:grid-cols-2">
-                <img
-                  src={deed.image}
-                  alt={`${deed.title} — before and after`}
-                  className="w-full h-full object-cover min-h-[280px]"
-                />
+                {deed.images && deed.images.length > 1 ? (
+                  <div className="grid grid-cols-2 gap-1 min-h-[280px]">
+                    {deed.images.map((src, i) => (
+                      <img
+                        key={src}
+                        src={src}
+                        alt={`${deed.title} — photo ${i + 1}`}
+                        className="w-full h-full object-cover min-h-[140px]"
+                      />
+                    ))}
+                  </div>
+                ) : (
+                  <img
+                    src={deed.image}
+                    alt={`${deed.title} — before and after`}
+                    className="w-full h-full object-cover min-h-[280px]"
+                  />
+                )}
                 <div className="p-8 flex flex-col justify-center">
                   <div className="flex flex-wrap items-center gap-2 mb-4">
                     <span className="inline-block px-3 py-1 bg-[#22C55E] text-white text-xs font-semibold rounded-full">

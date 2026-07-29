@@ -45,11 +45,24 @@ export default function DeedPage() {
 
         <section className="py-12 px-6">
           <div className="max-w-4xl mx-auto space-y-10">
-            <img
-              src={deed.image}
-              alt={`${deed.title} — before and after`}
-              className="w-full rounded-xl border border-[#E5E7EB]"
-            />
+            {deed.images && deed.images.length > 1 ? (
+              <div className="grid grid-cols-2 gap-2">
+                {deed.images.map((src, i) => (
+                  <img
+                    key={src}
+                    src={src}
+                    alt={`${deed.title} — photo ${i + 1}`}
+                    className="w-full h-56 md:h-72 object-cover rounded-xl border border-[#E5E7EB]"
+                  />
+                ))}
+              </div>
+            ) : (
+              <img
+                src={deed.image}
+                alt={`${deed.title} — before and after`}
+                className="w-full rounded-xl border border-[#E5E7EB]"
+              />
+            )}
 
             <div>
               <h2 className="section-label mb-3">Summary</h2>
@@ -104,7 +117,17 @@ export default function DeedPage() {
               <a href="/#impact" className="btn-outline text-xs px-6 py-3">
                 ← All Digital Deeds
               </a>
-              <a href="/" className="btn-primary text-xs px-6 py-3">
+              {deed.link && (
+                <a
+                  href={deed.link.href}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="btn-primary text-xs px-6 py-3"
+                >
+                  {deed.link.label}
+                </a>
+              )}
+              <a href="/" className="btn-outline text-xs px-6 py-3">
                 Back to reforgood.org
               </a>
             </div>
