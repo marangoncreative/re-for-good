@@ -4,8 +4,7 @@ import { ScrollTrigger } from 'gsap/ScrollTrigger'
 
 gsap.registerPlugin(ScrollTrigger)
 
-const partners = [
-  'Roma Rigenera Impresa',
+const programmeSupporters = [
   'European Union',
   'Italian Ministry of Interior',
   'City of Rome',
@@ -31,6 +30,10 @@ export default function CommunitySection() {
         y: 0, opacity: 1, duration: 0.8, ease: 'power3.out', stagger: 0.1,
         scrollTrigger: { trigger: ref.current, start: 'top 80%' }
       })
+      gsap.fromTo('.recognition-block', { y: 20, opacity: 0 }, {
+        y: 0, opacity: 1, duration: 0.8, ease: 'power3.out',
+        scrollTrigger: { trigger: '.recognition-block', start: 'top 85%' }
+      })
       gsap.fromTo('.partner-tag', { y: 10, opacity: 0 }, {
         y: 0, opacity: 1, duration: 0.4, ease: 'power3.out', stagger: 0.05,
         scrollTrigger: { trigger: ref.current, start: 'top 75%' }
@@ -42,7 +45,6 @@ export default function CommunitySection() {
   return (
     <section id="community" ref={ref} className="bg-[#1B5E2A] py-24 px-6">
       <div className="max-w-5xl mx-auto">
-        {/* RE Coin */}
         <div className="text-center mb-8">
           <img
             src="/assets/token-coin.png"
@@ -61,19 +63,32 @@ export default function CommunitySection() {
           </p>
         </div>
 
-        {/* Partners */}
+        {/* Recognition — Roma Rigenera Impresa */}
+        <div className="recognition-block max-w-3xl mx-auto mb-10 rounded-xl border border-white/15 bg-white/5 px-6 py-8 text-center">
+          <span className="text-[10px] font-semibold uppercase tracking-widest text-[#22C55E] block mb-3">
+            Recognition
+          </span>
+          <p className="text-base md:text-lg text-white font-light leading-relaxed mb-4">
+            Selected among the 10 winning projects of{' '}
+            <strong className="font-semibold text-white">Roma Rigenera Impresa 2026</strong>.
+          </p>
+          <p className="text-sm text-white/55 leading-relaxed">
+            Prize eligibility required Italian residence documentation; RE was recognized on stage
+            and in the official selection. Institutional supporters of the programme include:
+          </p>
+        </div>
+
         <div className="flex flex-wrap justify-center gap-3 mb-12">
-          {partners.map((p) => (
+          {programmeSupporters.map((p) => (
             <span
               key={p}
               className="partner-tag px-4 py-2 bg-white/5 border border-white/10 rounded-full text-xs text-white/70"
             >
-              ★ {p}
+              {p}
             </span>
           ))}
         </div>
 
-        {/* Links */}
         <div className="flex flex-wrap justify-center gap-4">
           {links.map((l) => (
             <a
