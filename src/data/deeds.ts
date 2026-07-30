@@ -167,11 +167,15 @@ export const deeds: Deed[] = [
       '/assets/veracura-after.png',
     ],
     summary:
-      'Three 125×125 cm modular tables built from wooden rubble left by the Veracura Hub construction site — landfill diversion in progress, with an upcycled-plastic mosaic surface still to come.',
+      'Three 125×125 cm modular tables built on-site from Veracura Hub construction timber — waste transformed where it was created, so disposal energy, new-product carbon, and long-haul furniture logistics were all avoided. Upcycled-plastic mosaic surface still to come.',
     interventions: [
       {
+        title: 'On-site transformation',
+        detail: 'Waste was converted into furniture at the same hub — no haul-away for disposal, no inbound shipment of new tables.',
+      },
+      {
         title: 'Site salvage',
-        detail: 'Collected beams, OSB panels, and scrap timber from the Veracura Hub construction site instead of sending them to waste.',
+        detail: 'Beams, OSB panels, and scrap timber from the Veracura construction site kept out of the waste stream.',
       },
       {
         title: 'Three modular tables',
@@ -188,29 +192,29 @@ export const deeds: Deed[] = [
     ],
     impacts: [
       {
-        label: 'Circular economy',
-        value: 'Site waste upcycled',
-        note: 'Construction timber and panels kept in use as durable furniture for the hub.',
+        label: 'Avoided disposal energy',
+        value: 'No haul-away / landfill load',
+        note: 'Timber stayed on site — energy for collection, transport, and waste processing was not spent.',
       },
       {
         label: 'Carbon (estimate)',
-        value: '~80–140 kg CO₂e avoided',
-        note: 'Vs. disposing site timber and buying three new modular tables. Full LCA forthcoming.',
+        value: '~160–280 kg CO₂e avoided',
+        note: 'Combined estimate: (~40–70) disposal & waste logistics + (~90–150) embodied carbon of three new tables + (~30–60) inbound manufacturing & delivery. Full LCA forthcoming.',
+      },
+      {
+        label: 'Avoided new production',
+        value: '3 tables not manufactured elsewhere',
+        note: 'No virgin furniture production chain — materials and craft stayed inside the hub’s own cycle.',
       },
       {
         label: 'Local regeneration',
-        value: 'Hub → Hub',
-        note: 'Materials from Veracura’s own build cycle return as furniture for the same place.',
-      },
-      {
-        label: 'Next chapter',
-        value: 'Plastic mosaic pending',
-        note: 'Surface finish will divert plastic waste once suitable feedstock arrives.',
+        value: 'Hub waste → Hub furniture',
+        note: 'Zero long-distance material loop: transformed where the waste was generated, used where it is needed.',
       },
     ],
-    standards: 'Circular design · Site-sourced materials · Modular reuse · Documented before/after',
+    standards: 'On-site circular design · Site-sourced materials · Modular reuse · Documented before/after',
     blockchainNote:
-      'Provenance of salvaged materials and the mosaic chapter will soon be verifiable on-chain. This Digital Deed tracks the project as it evolves.',
+      'Provenance of salvaged materials, on-site transformation, and the mosaic chapter will soon be verifiable on-chain. This Digital Deed tracks the project as it evolves.',
   },
 ]
 
