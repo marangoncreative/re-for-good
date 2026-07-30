@@ -147,28 +147,32 @@ export default function ProjectsSection() {
             </div>
           </div>
 
-          {/* 5. RE LABS */}
+          {/* 5. RE LAB */}
           <div className="project-feature bg-[#F0FFF4] rounded-xl overflow-hidden">
             <div className="grid grid-cols-1 md:grid-cols-2">
               <div className="grid grid-cols-2 gap-1">
-                <img src="/assets/workshop.jpg" alt="RE Labs" className="w-full h-48 object-cover" />
-                <img src="/assets/workshop.jpg" alt="RE Labs interior" className="w-full h-48 object-cover" />
+                <img src="/assets/workshop.jpg" alt="RE Lab" className="w-full h-48 object-cover" />
+                <img src="/assets/workshop.jpg" alt="RE Lab interior" className="w-full h-48 object-cover" />
                 <img src="/assets/workshop.jpg" alt="RE Lab tools" className="w-full h-48 object-cover" />
                 <img src="/assets/workshop.jpg" alt="RE Lab workspace" className="w-full h-48 object-cover" />
               </div>
               <div className="p-8 flex flex-col justify-center">
                 <span className="inline-block px-3 py-1 bg-[#22C55E] text-white text-xs font-semibold rounded-full w-fit mb-4">
-                  2027 — R&D HUB
+                  2027 — CRAFT & EXPERIENCE HUB
                 </span>
-                <h3 className="text-2xl font-semibold text-[#1F2937] mb-4">RE LABS</h3>
+                <h3 className="text-2xl font-semibold text-[#1F2937] mb-4">RE LAB</h3>
                 <p className="text-sm text-[#4B5563] leading-relaxed mb-3">
-                  Our physical <strong>research and development laboratory</strong> in the heart of Rome.
+                  A living workshop in Rome where <strong>disadvantaged individuals learn craft skills</strong> —
+                  restoration, upcycling, and making — turning waste and heritage materials into lasting value.
                 </p>
                 <p className="text-sm text-[#4B5563] leading-relaxed mb-3">
-                  Waste is collected, analyzed, and transformed into certified assets. Every material is documented and tracked on the blockchain.
+                  In parallel, RE Lab develops <strong>upper-segment experiential tourism</strong> for visitors
+                  from around the world: curated journeys into Rome’s history, regenerative craft, and
+                  environmental awareness — not sightseeing alone, but immersion with meaning.
                 </p>
                 <p className="text-sm text-[#4B5563] leading-relaxed mb-4">
-                  <strong>"Ciao Vicino!"</strong> workshops let community members participate in creation and mint their contributions as NFTs.
+                  Social inclusion and cultural tourism meet in one place: skills for those who need them,
+                  and unforgettable, high-quality experiences for those who seek Rome with a conscience.
                 </p>
                 <a href="/#impact" className="btn-primary text-xs px-6 py-3 w-fit">
                   View Digital Deeds
