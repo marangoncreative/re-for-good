@@ -14,6 +14,7 @@ export type Deed = {
   status: 'Certified' | 'In progress'
   image: string
   images?: string[]
+  imageLabels?: string[]
   summary: string
   interventions: { title: string; detail: string }[]
   impacts: DeedImpact[]
@@ -162,10 +163,10 @@ export const deeds: Deed[] = [
     status: 'In progress',
     image: '/assets/veracura-before-after.png',
     images: [
-      '/assets/veracura-before-after.png',
       '/assets/veracura-before.png',
       '/assets/veracura-after.png',
     ],
+    imageLabels: ['Before', 'After'],
     summary:
       'Three 125×125 cm modular tables built on-site from Veracura Hub construction timber — waste transformed where it was created, so disposal energy, new-product carbon, and long-haul furniture logistics were all avoided. Upcycled-plastic mosaic surface still to come.',
     interventions: [

@@ -50,20 +50,26 @@ export default function DeedPage() {
         <section className="py-12 px-6">
           <div className="max-w-4xl mx-auto space-y-10">
             {deed.images && deed.images.length > 1 ? (
-              <div className="grid grid-cols-2 gap-2">
+              <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
                 {deed.images.map((src, i) => (
-                  <img
-                    key={src}
-                    src={src}
-                    alt={`${deed.title} — photo ${i + 1}`}
-                    className="w-full h-56 md:h-72 object-cover rounded-xl border border-[#E5E7EB]"
-                  />
+                  <figure key={src} className="space-y-2">
+                    <img
+                      src={src}
+                      alt={deed.imageLabels?.[i] ? `${deed.title} — ${deed.imageLabels[i]}` : `${deed.title} — photo ${i + 1}`}
+                      className="w-full h-56 md:h-72 object-cover rounded-xl border border-[#E5E7EB]"
+                    />
+                    {deed.imageLabels?.[i] && (
+                      <figcaption className="text-xs font-semibold uppercase tracking-wider text-[#6B7280]">
+                        {deed.imageLabels[i]}
+                      </figcaption>
+                    )}
+                  </figure>
                 ))}
               </div>
             ) : (
               <img
                 src={deed.image}
-                alt={`${deed.title} — before and after`}
+                alt={deed.title}
                 className="w-full rounded-xl border border-[#E5E7EB]"
               />
             )}
