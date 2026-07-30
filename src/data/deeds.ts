@@ -152,6 +152,66 @@ export const deeds: Deed[] = [
     blockchainNote:
       'Lifecycle, provenance, and restoration journey will soon be verifiable on-chain. This Digital Deed is the off-chain record today.',
   },
+  {
+    id: 'RE-LAB-2026-003',
+    title: 'Veracura Hub Modular Tables',
+    subtitle: 'Construction waste → 3 modular tables · mosaic next',
+    material: 'Reclaimed site timber & OSB · upcycled plastic mosaic (upcoming)',
+    workshop: 'RE Lab · Veracura Hub',
+    date: '2026',
+    status: 'In progress',
+    image: '/assets/veracura-before-after.png',
+    images: [
+      '/assets/veracura-before-after.png',
+      '/assets/veracura-before.png',
+      '/assets/veracura-after.png',
+    ],
+    summary:
+      'Three 125×125 cm modular tables built from wooden rubble left by the Veracura Hub construction site — landfill diversion in progress, with an upcycled-plastic mosaic surface still to come.',
+    interventions: [
+      {
+        title: 'Site salvage',
+        detail: 'Collected beams, OSB panels, and scrap timber from the Veracura Hub construction site instead of sending them to waste.',
+      },
+      {
+        title: 'Three modular tables',
+        detail: 'Built three matching 125×125 cm modules that can stand alone or join into one long surface.',
+      },
+      {
+        title: 'Structural reuse',
+        detail: 'Reclaimed heavy timber became cross-braced legs; OSB panels became tabletops.',
+      },
+      {
+        title: 'Upcycled plastic mosaic (next)',
+        detail: 'Tabletops will receive a mosaic from upcycled plastic — suitable waste feedstock is currently being sourced.',
+      },
+    ],
+    impacts: [
+      {
+        label: 'Circular economy',
+        value: 'Site waste upcycled',
+        note: 'Construction timber and panels kept in use as durable furniture for the hub.',
+      },
+      {
+        label: 'Carbon (estimate)',
+        value: '~80–140 kg CO₂e avoided',
+        note: 'Vs. disposing site timber and buying three new modular tables. Full LCA forthcoming.',
+      },
+      {
+        label: 'Local regeneration',
+        value: 'Hub → Hub',
+        note: 'Materials from Veracura’s own build cycle return as furniture for the same place.',
+      },
+      {
+        label: 'Next chapter',
+        value: 'Plastic mosaic pending',
+        note: 'Surface finish will divert plastic waste once suitable feedstock arrives.',
+      },
+    ],
+    standards: 'Circular design · Site-sourced materials · Modular reuse · Documented before/after',
+    blockchainNote:
+      'Provenance of salvaged materials and the mosaic chapter will soon be verifiable on-chain. This Digital Deed tracks the project as it evolves.',
+  },
 ]
 
 export function getDeed(id: string): Deed | undefined {

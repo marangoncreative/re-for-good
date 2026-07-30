@@ -31,7 +31,11 @@ export default function DeedPage() {
           <div className="max-w-4xl mx-auto">
             <p className="text-xs uppercase tracking-widest text-white/60 mb-3">Digital Deed</p>
             <div className="flex flex-wrap items-center gap-3 mb-4">
-              <span className="inline-block px-3 py-1 bg-[#22C55E] text-white text-xs font-semibold rounded-full">
+              <span
+                className={`inline-block px-3 py-1 text-white text-xs font-semibold rounded-full ${
+                  deed.status === 'In progress' ? 'bg-[#C8A96A]' : 'bg-[#22C55E]'
+                }`}
+              >
                 {deed.status}
               </span>
               <span className="font-mono text-sm text-[#22C55E]">{deed.id}</span>

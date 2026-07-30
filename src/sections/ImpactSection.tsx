@@ -51,7 +51,11 @@ export default function ImpactSection() {
                 />
                 <div className="p-8 flex flex-col justify-center">
                   <div className="flex flex-wrap items-center gap-2 mb-4">
-                    <span className="inline-block px-3 py-1 bg-[#22C55E] text-white text-xs font-semibold rounded-full">
+                    <span
+                      className={`inline-block px-3 py-1 text-white text-xs font-semibold rounded-full ${
+                        deed.status === 'In progress' ? 'bg-[#C8A96A]' : 'bg-[#22C55E]'
+                      }`}
+                    >
                       {deed.status}
                     </span>
                     <span className="text-xs font-mono text-[#6B7280]">{deed.id}</span>
