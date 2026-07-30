@@ -34,7 +34,6 @@ export const deeds: Deed[] = [
     status: 'Certified',
     image: '/assets/chess-hero.png',
     images: [
-      '/assets/chess-hero.png',
       '/assets/chess-1.jpg',
       '/assets/chess-2.jpg',
       '/assets/chess-3.jpg',
