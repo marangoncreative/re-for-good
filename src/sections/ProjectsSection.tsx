@@ -150,12 +150,11 @@ export default function ProjectsSection() {
           {/* 5. RE LAB */}
           <div className="project-feature bg-[#F0FFF4] rounded-xl overflow-hidden">
             <div className="grid grid-cols-1 md:grid-cols-2">
-              <div className="grid grid-cols-2 gap-1">
-                <img src="/assets/workshop.jpg" alt="RE Lab" className="w-full h-48 object-cover" />
-                <img src="/assets/workshop.jpg" alt="RE Lab interior" className="w-full h-48 object-cover" />
-                <img src="/assets/workshop.jpg" alt="RE Lab tools" className="w-full h-48 object-cover" />
-                <img src="/assets/workshop.jpg" alt="RE Lab workspace" className="w-full h-48 object-cover" />
-              </div>
+              <img
+                src="/assets/re-lab.png"
+                alt="RE Lab — carved heritage wood"
+                className="w-full h-full object-cover min-h-[400px] object-[30%_center]"
+              />
               <div className="p-8 flex flex-col justify-center">
                 <span className="inline-block px-3 py-1 bg-[#22C55E] text-white text-xs font-semibold rounded-full w-fit mb-4">
                   2027 — CRAFT & EXPERIENCE HUB
