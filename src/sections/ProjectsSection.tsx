@@ -87,11 +87,11 @@ export default function ProjectsSection() {
           {/* 3. 7 HILLS OF ROMA */}
           <div className="project-feature bg-[#F0FFF4] rounded-xl overflow-hidden">
             <div className="grid grid-cols-1 md:grid-cols-2">
-              <div className="grid grid-cols-2 grid-rows-2 gap-1 h-full min-h-[400px]">
-                <img src="/assets/chess-1.jpg" alt="7 Hills of Roma chess set" className="w-full h-full min-h-0 object-cover" />
-                <img src="/assets/chess-2.jpg" alt="Chess set in park" className="w-full h-full min-h-0 object-cover" />
-                <img src="/assets/chess-3.jpg" alt="Recycled plastic pieces" className="w-full h-full min-h-0 object-cover" />
-                <img src="/assets/chess-4.jpg" alt="Wooden pinea pieces" className="w-full h-full min-h-0 object-cover" />
+              <div className="grid grid-cols-2 gap-1">
+                <img src="/assets/chess-1.jpg" alt="7 Hills of Roma chess set" className="w-full h-48 object-cover" />
+                <img src="/assets/chess-2.jpg" alt="Chess set in park" className="w-full h-48 object-cover" />
+                <img src="/assets/chess-3.jpg" alt="Recycled plastic pieces" className="w-full h-48 object-cover" />
+                <img src="/assets/chess-4.jpg" alt="Wooden pinea pieces" className="w-full h-48 object-cover" />
               </div>
               <div className="p-8 flex flex-col justify-center">
                 <span className="inline-block px-3 py-1 bg-[#22C55E] text-white text-xs font-semibold rounded-full w-fit mb-4">
@@ -123,11 +123,11 @@ export default function ProjectsSection() {
           {/* 4. UP */}
           <div className="project-feature bg-[#F0FFF4] rounded-xl overflow-hidden">
             <div className="grid grid-cols-1 md:grid-cols-2">
-              <div className="grid grid-cols-2 grid-rows-2 gap-1 h-full min-h-[400px]">
-                <img src="/assets/up-1.jpg" alt="UP climbing wall" className="w-full h-full min-h-0 object-cover" />
-                <img src="/assets/up-2.jpg" alt="UP wall detail" className="w-full h-full min-h-0 object-cover" />
-                <img src="/assets/up-3.jpg" alt="Tire tower" className="w-full h-full min-h-0 object-cover" />
-                <img src="/assets/up-4.jpg" alt="Tire texture" className="w-full h-full min-h-0 object-cover" />
+              <div className="grid grid-cols-2 gap-1">
+                <img src="/assets/up-1.jpg" alt="UP climbing wall" className="w-full h-48 object-cover" />
+                <img src="/assets/up-2.jpg" alt="UP wall detail" className="w-full h-48 object-cover" />
+                <img src="/assets/up-3.jpg" alt="Tire tower" className="w-full h-48 object-cover" />
+                <img src="/assets/up-4.jpg" alt="Tire texture" className="w-full h-48 object-cover" />
               </div>
               <div className="p-8 flex flex-col justify-center">
                 <span className="inline-block px-3 py-1 bg-[#22C55E] text-white text-xs font-semibold rounded-full w-fit mb-4">
@@ -150,11 +150,11 @@ export default function ProjectsSection() {
           {/* 5. RE LAB */}
           <div className="project-feature bg-[#F0FFF4] rounded-xl overflow-hidden">
             <div className="grid grid-cols-1 md:grid-cols-2">
-              <div className="grid grid-cols-2 grid-rows-2 gap-1 h-full min-h-[400px]">
-                <img src="/assets/re-lab-1.png" alt="RE Lab carved wood" className="w-full h-full min-h-0 object-cover" />
-                <img src="/assets/re-lab-2.png" alt="RE Lab harmony carving" className="w-full h-full min-h-0 object-cover" />
-                <img src="/assets/re-lab-3.png" alt="RE Lab woodworking tool" className="w-full h-full min-h-0 object-cover" />
-                <img src="/assets/re-lab-4.png" alt="RE Lab timber craft" className="w-full h-full min-h-0 object-cover" />
+              <div className="grid grid-cols-2 gap-1">
+                <img src="/assets/re-lab-1.png" alt="RE Lab carved wood" className="w-full h-48 object-cover" />
+                <img src="/assets/re-lab-2.png" alt="RE Lab harmony carving" className="w-full h-48 object-cover" />
+                <img src="/assets/re-lab-3.png" alt="RE Lab woodworking tool" className="w-full h-48 object-cover" />
+                <img src="/assets/re-lab-4.png" alt="RE Lab timber craft" className="w-full h-48 object-cover" />
               </div>
               <div className="p-8 flex flex-col justify-center">
                 <span className="inline-block px-3 py-1 bg-[#22C55E] text-white text-xs font-semibold rounded-full w-fit mb-4">
