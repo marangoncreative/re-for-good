@@ -4,6 +4,15 @@ export type DeedImpact = {
   note: string
 }
 
+export type DeedEconomy = {
+  fee: string
+  costs: string
+  netCash: string
+  retained: string
+  stock: string
+  note: string
+}
+
 export type Deed = {
   id: string
   title: string
@@ -18,6 +27,7 @@ export type Deed = {
   summary: string
   interventions: { title: string; detail: string }[]
   impacts: DeedImpact[]
+  economy?: DeedEconomy
   standards: string
   blockchainNote: string
   link?: { label: string; href: string }
@@ -148,6 +158,15 @@ export const deeds: Deed[] = [
         note: 'Museum-standard intervention — safely restorable again decades from now.',
       },
     ],
+    economy: {
+      fee: '€200 cash received',
+      costs: '€140 materials + machine & hand tools',
+      netCash: '~€60 on this job',
+      retained: 'Machine and hand tools kept in the workshop',
+      stock: 'Materials left for ~3 further jobs of the same type',
+      note:
+        'Small paid restoration logged as-is: cash fee, out-of-pocket costs, tools as retained capital, leftover stock as repeat capacity. Not a formal invoice — workshop ledger for transparency.',
+    },
     standards: 'Museum-level conservation · Full reversibility · Documentary integrity',
     blockchainNote:
       'Lifecycle, provenance, and restoration journey will soon be verifiable on-chain. This Digital Deed is the off-chain record today.',

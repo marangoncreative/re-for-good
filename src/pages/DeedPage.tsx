@@ -115,6 +115,37 @@ export default function DeedPage() {
               </div>
             </div>
 
+            {deed.economy && (
+              <div>
+                <h2 className="section-label mb-4">Workshop ledger</h2>
+                <div className="rounded-xl border border-[#E5E7EB] p-6 space-y-4">
+                  <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
+                    <div>
+                      <p className="text-[10px] uppercase tracking-wider text-[#6B7280] mb-1">Fee</p>
+                      <p className="text-sm font-semibold text-[#1F2937]">{deed.economy.fee}</p>
+                    </div>
+                    <div>
+                      <p className="text-[10px] uppercase tracking-wider text-[#6B7280] mb-1">Costs</p>
+                      <p className="text-sm font-semibold text-[#1F2937]">{deed.economy.costs}</p>
+                    </div>
+                    <div>
+                      <p className="text-[10px] uppercase tracking-wider text-[#6B7280] mb-1">Net cash</p>
+                      <p className="text-sm font-semibold text-[#1B5E2A]">{deed.economy.netCash}</p>
+                    </div>
+                    <div>
+                      <p className="text-[10px] uppercase tracking-wider text-[#6B7280] mb-1">Retained capital</p>
+                      <p className="text-sm font-semibold text-[#1F2937]">{deed.economy.retained}</p>
+                    </div>
+                  </div>
+                  <div className="pt-2 border-t border-[#E5E7EB]">
+                    <p className="text-[10px] uppercase tracking-wider text-[#6B7280] mb-1">Material stock</p>
+                    <p className="text-sm font-semibold text-[#1F2937] mb-3">{deed.economy.stock}</p>
+                    <p className="text-xs text-[#6B7280] leading-relaxed">{deed.economy.note}</p>
+                  </div>
+                </div>
+              </div>
+            )}
+
             {/* Blockchain / next step */}
             <div className="rounded-xl border border-dashed border-[#22C55E]/40 bg-[#F0FFF4] p-6">
               <p className="text-xs font-semibold uppercase tracking-wider text-[#22C55E] mb-2">
