@@ -121,19 +121,19 @@ export default function DeedPage() {
                 <div className="rounded-xl border border-[#E5E7EB] p-6 space-y-4">
                   <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
                     <div>
-                      <p className="text-[10px] uppercase tracking-wider text-[#6B7280] mb-1">Fee</p>
+                      <p className="text-[10px] uppercase tracking-wider text-[#6B7280] mb-1">Engagement</p>
                       <p className="text-sm font-semibold text-[#1F2937]">{deed.economy.fee}</p>
                     </div>
                     <div>
-                      <p className="text-[10px] uppercase tracking-wider text-[#6B7280] mb-1">Costs</p>
+                      <p className="text-[10px] uppercase tracking-wider text-[#6B7280] mb-1">Out-of-pocket</p>
                       <p className="text-sm font-semibold text-[#1F2937]">{deed.economy.costs}</p>
                     </div>
                     <div>
-                      <p className="text-[10px] uppercase tracking-wider text-[#6B7280] mb-1">Net cash</p>
+                      <p className="text-[10px] uppercase tracking-wider text-[#6B7280] mb-1">Outcome</p>
                       <p className="text-sm font-semibold text-[#1B5E2A]">{deed.economy.netCash}</p>
                     </div>
                     <div>
-                      <p className="text-[10px] uppercase tracking-wider text-[#6B7280] mb-1">Retained capital</p>
+                      <p className="text-[10px] uppercase tracking-wider text-[#6B7280] mb-1">Tools retained</p>
                       <p className="text-sm font-semibold text-[#1F2937]">{deed.economy.retained}</p>
                     </div>
                   </div>

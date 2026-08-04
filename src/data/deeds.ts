@@ -159,13 +159,13 @@ export const deeds: Deed[] = [
       },
     ],
     economy: {
-      fee: '€200 cash received',
-      costs: '€140 materials + machine & hand tools',
-      netCash: '~€60 on this job',
+      fee: 'Paid restoration completed (cash)',
+      costs: 'Out-of-pocket costs covered materials plus machine & hand tools',
+      netCash: 'Repeatable capacity, not a one-off spend',
       retained: 'Machine and hand tools kept in the workshop',
       stock: 'Materials left for ~3 further jobs of the same type',
       note:
-        'Small paid restoration logged as-is: cash fee, out-of-pocket costs, tools as retained capital, leftover stock as repeat capacity. Not a formal invoice — workshop ledger for transparency.',
+        'Logged for transparency as craft capacity that can run again — not a formal invoice or company statement.',
     },
     standards: 'Museum-level conservation · Full reversibility · Documentary integrity',
     blockchainNote:
