@@ -1,11 +1,11 @@
 import { useState } from 'react'
 
 const navLinks = [
-  { label: 'About', href: '/#about' },
-  { label: 'Projects', href: '/#projects' },
   { label: 'Impact', href: '/#impact' },
-  { label: 'Tokenomics', href: '/#tokenomics' },
+  { label: 'Projects', href: '/#projects' },
+  { label: 'About', href: '/#about' },
   { label: 'Community', href: '/#community' },
+  { label: 'Tokenomics', href: '/#tokenomics' },
 ]
 
 export default function Navigation() {

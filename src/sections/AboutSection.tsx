@@ -5,10 +5,10 @@ import { ScrollTrigger } from 'gsap/ScrollTrigger'
 gsap.registerPlugin(ScrollTrigger)
 
 const features = [
-  'Turn waste into certified art and RWA-NFTs',
-  'Clean neighborhoods through decentralized action',
-  'Earn RE Tokens for environmental contribution',
-  'Transparent blockchain-based impact tracking',
+  'Documented restorations as Digital Deeds',
+  'Urban waste and fallen timber remade as craft',
+  'Cultural heritage kept in the material, not erased',
+  'On-chain verification coming — proof first, token second',
 ]
 
 export default function AboutSection() {
@@ -29,26 +29,23 @@ export default function AboutSection() {
     <section id="about" ref={ref} className="bg-white py-24 px-6">
       <div className="max-w-5xl mx-auto">
         <div className="about-text grid grid-cols-1 lg:grid-cols-2 gap-16 items-start">
-          {/* Left - heading */}
           <div>
             <span className="section-label block mb-3">About</span>
             <h2 className="text-3xl md:text-4xl font-light text-[#1F2937] leading-snug">
-              What is <span className="text-[#22C55E] font-normal">RE Token</span>?
+              What is <span className="text-[#22C55E] font-normal">RE for Good</span>?
             </h2>
           </div>
 
-          {/* Right - description */}
           <div>
             <p className="text-base text-[#6B7280] leading-relaxed mb-6">
-              RE Token is a transformative movement born in the heart of Rome. We bridge ancient heritage 
-              with cutting-edge technology through <strong className="text-[#1F2937]">Regenerative Finance (ReFi)</strong>. 
-              Every piece of waste becomes a Digital Deed — a unique RWA-NFT that proves your environmental impact 
-              on the blockchain.
+              Born in Rome, RE for Good turns discarded material into lasting craft —
+              and records each act as a <strong className="text-[#1F2937]">Digital Deed</strong>:
+              what was done, what culture was kept, what nature gained.
             </p>
             <p className="text-base text-[#6B7280] leading-relaxed mb-8">
-              While others see trash, we see the raw material for the next <strong className="text-[#1F2937]">REnaissance</strong>. 
-              Our community-funded ecosystem turns discarded materials into monumental public art, 
-              powered by decentralized governance and transparent blockchain technology.
+              Regenerative finance and the RE Token sit underneath that proof —
+              not in front of it. While others see trash, we see the raw material
+              for the next <strong className="text-[#1F2937]">REnaissance</strong>.
             </p>
 
             <ul className="space-y-3">
@@ -60,8 +57,8 @@ export default function AboutSection() {
               ))}
             </ul>
 
-            <a href="#" className="btn-primary mt-8 inline-block">
-              Read the Manifesto
+            <a href="#impact" className="btn-primary mt-8 inline-block">
+              See Proof of Impact
             </a>
           </div>
         </div>

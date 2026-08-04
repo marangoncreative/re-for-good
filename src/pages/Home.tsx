@@ -1,15 +1,15 @@
 import Navigation from '../components/Navigation'
 import Footer from '../components/Footer'
 import HeroSection from '../sections/HeroSection'
-import AudienceSection from '../sections/AudienceSection'
+import ImpactSection from '../sections/ImpactSection'
 import AboutSection from '../sections/AboutSection'
+import ProjectsSection from '../sections/ProjectsSection'
+import CommunitySection from '../sections/CommunitySection'
+import TokenomicsSection from '../sections/TokenomicsSection'
+import AudienceSection from '../sections/AudienceSection'
 import CitizensSection from '../sections/CitizensSection'
 import BusinessesSection from '../sections/BusinessesSection'
 import ArtistsSection from '../sections/ArtistsSection'
-import ProjectsSection from '../sections/ProjectsSection'
-import ImpactSection from '../sections/ImpactSection'
-import TokenomicsSection from '../sections/TokenomicsSection'
-import CommunitySection from '../sections/CommunitySection'
 
 export default function Home() {
   return (
@@ -17,15 +17,15 @@ export default function Home() {
       <Navigation />
       <main>
         <HeroSection />
-        <AudienceSection />
+        <ImpactSection />
         <AboutSection />
+        <ProjectsSection />
+        <CommunitySection />
+        <TokenomicsSection />
+        <AudienceSection />
         <CitizensSection />
         <BusinessesSection />
         <ArtistsSection />
-        <ProjectsSection />
-        <ImpactSection />
-        <TokenomicsSection />
-        <CommunitySection />
       </main>
       <Footer />
     </div>

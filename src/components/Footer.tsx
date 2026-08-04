@@ -7,7 +7,7 @@ export default function Footer() {
           <div className="md:col-span-1">
             <span className="text-2xl font-bold">RE</span>
             <p className="text-white/60 text-sm mt-3 leading-relaxed">
-              Rome · Blockchain · Regenerative Finance
+              Rome · Craft · Proof of Impact
             </p>
             <a
               href="#"
@@ -24,11 +24,11 @@ export default function Footer() {
             </h4>
             <ul className="space-y-2">
               {[
-                { label: 'About', href: '/#about' },
-                { label: 'Projects', href: '/#projects' },
                 { label: 'Impact', href: '/#impact' },
-                { label: 'Tokenomics', href: '/#tokenomics' },
+                { label: 'Projects', href: '/#projects' },
+                { label: 'About', href: '/#about' },
                 { label: 'Community', href: '/#community' },
+                { label: 'Tokenomics', href: '/#tokenomics' },
               ].map((item) => (
                 <li key={item.label}>
                   <a href={item.href} className="text-sm text-white/70 hover:text-white transition-colors">
