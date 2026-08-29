@@ -5,7 +5,6 @@ const navLinks = [
   { label: 'Projects', href: '/#projects' },
   { label: 'About', href: '/#about' },
   { label: 'Community', href: '/#community' },
-  { label: 'Tokenomics', href: '/#tokenomics' },
 ]
 
 export default function Navigation() {
@@ -14,12 +13,10 @@ export default function Navigation() {
   return (
     <nav className="bg-[#1B5E2A] text-white">
       <div className="max-w-6xl mx-auto px-6 h-14 flex items-center justify-between">
-        {/* Logo */}
         <a href="/" className="text-2xl font-bold tracking-tight">
           RE
         </a>
 
-        {/* Desktop Nav */}
         <div className="hidden md:flex items-center gap-8">
           {navLinks.map((link) => (
             <a
@@ -36,15 +33,11 @@ export default function Navigation() {
           >
             teve[RE] Game
           </a>
-          <a
-            href="#"
-            className="btn-primary text-xs px-5 py-2"
-          >
-            Get RE Token
+          <a href="/#community" className="btn-primary text-xs px-5 py-2">
+            Get involved
           </a>
         </div>
 
-        {/* Mobile toggle */}
         <button
           className="md:hidden text-white"
           onClick={() => setMobileOpen(!mobileOpen)}
@@ -53,7 +46,6 @@ export default function Navigation() {
         </button>
       </div>
 
-      {/* Mobile menu */}
       {mobileOpen && (
         <div className="md:hidden px-6 pb-4 space-y-3">
           {navLinks.map((link) => (
@@ -73,8 +65,8 @@ export default function Navigation() {
           >
             teve[RE] Game
           </a>
-          <a href="#" className="btn-primary text-xs px-5 py-2 inline-block">
-            Get RE Token
+          <a href="/#community" className="btn-primary text-xs px-5 py-2 inline-block">
+            Get involved
           </a>
         </div>
       )}

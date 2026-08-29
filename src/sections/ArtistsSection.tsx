@@ -5,10 +5,10 @@ import { ScrollTrigger } from 'gsap/ScrollTrigger'
 gsap.registerPlugin(ScrollTrigger)
 
 const features = [
-  { title: 'Beyond Digital Art', desc: 'Physical creations minted as RWA-NFTs — permanent proof of your impact.' },
-  { title: 'Perpetual Royalties', desc: 'Built-in royalty system. Earn every time your art is traded.' },
-  { title: 'Global Visibility', desc: 'Showcase in RE Shop, galleries, and our Rome laboratory.' },
-  { title: 'Proof of Impact', desc: 'Quantified environmental contribution rewards you with RE Tokens.' },
+  { title: 'Physical craft first', desc: 'Your work lives as object and restoration — documented, not disposable.' },
+  { title: 'Limited editions', desc: 'Collaborate on numbered pieces with full provenance and Digital Deeds.' },
+  { title: 'Global visibility', desc: 'Showcase in RE Lab, partner exhibitions, and reforgood.org.' },
+  { title: 'Proof of Impact', desc: 'Quantified environmental and cultural contribution on every deed.' },
 ]
 
 export default function ArtistsSection() {
@@ -45,13 +45,13 @@ export default function ArtistsSection() {
           <div>
             <span className="section-label block mb-3">For Artists</span>
             <h2 className="text-3xl md:text-4xl font-light text-[#1F2937] leading-snug mb-4">
-              Minting the Future
+              Craft the REnaissance
             </h2>
             <p className="text-base text-[#6B7280] leading-relaxed mb-6">
-              From Rome to the World: The REnaissance of Waste. Your physical masterpieces 
-              become permanent digital assets — bridging ancient craft with blockchain technology.
+              From Rome to the world: the REnaissance of waste. Your physical masterpieces
+              join a documented lineage — ancient materials, contemporary craft, lasting proof.
             </p>
-            <a href="https://re-token-1adb01.webflow.io/#artists" target="_blank" rel="noopener noreferrer" className="btn-primary text-xs inline-block">Become a RE Artist</a>
+            <a href="/#community" className="btn-primary text-xs inline-block">Collaborate with RE Lab</a>
           </div>
         </div>
       </div>

@@ -5,10 +5,10 @@ import { ScrollTrigger } from 'gsap/ScrollTrigger'
 gsap.registerPlugin(ScrollTrigger)
 
 const steps = [
-  { num: '01', title: 'Learn', desc: 'Attend workshops and see how waste becomes value.' },
-  { num: '02', title: 'Collect', desc: 'Bring suitable waste from your home or shop.' },
-  { num: '03', title: 'Earn', desc: 'Receive RE Tokens directly for your contribution.' },
-  { num: '04', title: 'Benefit', desc: 'Enjoy exclusive perks from community projects.' },
+  { num: '01', title: 'Learn', desc: 'Attend workshops and see how waste becomes lasting craft.' },
+  { num: '02', title: 'Collect', desc: 'Bring suitable waste from your home or shop to RE Lab.' },
+  { num: '03', title: 'Contribute', desc: 'Your material feeds restorations and limited editions.' },
+  { num: '04', title: 'Benefit', desc: 'Enjoy community projects, events, and shared public spaces.' },
 ]
 
 export default function CitizensSection() {
@@ -39,8 +39,8 @@ export default function CitizensSection() {
               Transform Your Neighborhood
             </h2>
             <p className="text-base text-[#6B7280] leading-relaxed">
-              RE Token is the simplest way to take care of your neighborhood and do good together. 
-              You are not just a user — you are a partner, a contributor, and the true owner of this project.
+              RE for Good is a practical way to care for your neighborhood — through craft,
+              documented impact, and shared projects. You are not just a visitor; you are part of the work.
             </p>
           </div>
 
@@ -55,8 +55,10 @@ export default function CitizensSection() {
               </div>
             ))}
             <div className="pt-6 flex gap-3">
-              <a href="#" className="btn-primary text-xs">Get RE Token</a>
-              <a href="#" className="btn-outline text-xs">No Wallet?</a>
+              <a href="/#community" className="btn-primary text-xs">Get involved</a>
+              <a href="https://revsn.app" target="_blank" rel="noopener noreferrer" className="btn-outline text-xs">
+                Try REvision
+              </a>
             </div>
           </div>
         </div>

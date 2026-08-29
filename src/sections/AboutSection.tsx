@@ -8,7 +8,7 @@ const features = [
   'Documented restorations as Digital Deeds',
   'Urban waste and fallen timber remade as craft',
   'Cultural heritage kept in the material, not erased',
-  'On-chain verification coming — proof first, token second',
+  'Transparent impact records — open verification when ready',
 ]
 
 export default function AboutSection() {
@@ -43,8 +43,8 @@ export default function AboutSection() {
               what was done, what culture was kept, what nature gained.
             </p>
             <p className="text-base text-[#6B7280] leading-relaxed mb-8">
-              Regenerative finance and the RE Token sit underneath that proof —
-              not in front of it. While others see trash, we see the raw material
+              RE Lab in Rome is where the work happens — restoration, upcycling,
+              and limited editions. While others see trash, we see the raw material
               for the next <strong className="text-[#1F2937]">REnaissance</strong>.
             </p>
 

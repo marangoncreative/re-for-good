@@ -45,21 +45,13 @@ export default function CommunitySection() {
   return (
     <section id="community" ref={ref} className="bg-[#1B5E2A] py-24 px-6">
       <div className="max-w-5xl mx-auto">
-        <div className="text-center mb-8">
-          <img
-            src="/assets/token-coin.png"
-            alt="RE Token Coin"
-            className="w-44 h-44 mx-auto object-contain opacity-80"
-          />
-        </div>
-
         <div className="community-text text-center mb-12">
           <span className="section-label block mb-3 text-[#22C55E]">Community</span>
           <h2 className="text-3xl md:text-4xl font-light text-white mb-4">
-            Building the World's First RWA Art Ecosystem
+            Rome&apos;s circular craft community
           </h2>
           <p className="text-base text-white/60 max-w-2xl mx-auto">
-            A Future Powered by Rome & Blockchain. Join the REnaissance.
+            Workshops, partnerships, and documented impact — building the REnaissance from the ground up.
           </p>
         </div>
 

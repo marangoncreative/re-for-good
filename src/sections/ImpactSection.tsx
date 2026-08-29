@@ -33,7 +33,7 @@ export default function ImpactSection() {
           </h2>
           <p className="text-sm text-[#4B5563] leading-relaxed max-w-2xl">
             Each restoration is documented as a Digital Deed — what was done, how culture was
-            preserved, and how nature benefited. On-chain verification coming soon.
+            preserved, and how nature benefited. Open verification may follow when available.
           </p>
         </div>
 

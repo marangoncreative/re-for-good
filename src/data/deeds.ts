@@ -97,7 +97,7 @@ export const deeds: Deed[] = [
     ],
     standards: 'Circular design · Local materials · Limited edition of 7 · Documented provenance',
     blockchainNote:
-      'Every material and process will soon be trackable on-chain. This Digital Deed is the off-chain record of provenance today.',
+      'Every material and process is recorded in this Digital Deed. Open verification may follow when available.',
     link: {
       label: 'Purchase edition',
       href: 'https://www.vinted.it/items/9043786790-27-of-7-hills-of-rome-collectable-chess-set?referrer=catalog',
@@ -169,7 +169,7 @@ export const deeds: Deed[] = [
     },
     standards: 'Museum-level conservation · Full reversibility · Documentary integrity',
     blockchainNote:
-      'Lifecycle, provenance, and restoration journey will soon be verifiable on-chain. This Digital Deed is the off-chain record today.',
+      'Lifecycle, provenance, and restoration journey are recorded in this Digital Deed. Open verification may follow when available.',
   },
   {
     id: 'RE-LAB-2026-003',
@@ -233,7 +233,7 @@ export const deeds: Deed[] = [
     ],
     standards: 'On-site circular design · Site-sourced materials · Modular reuse · Documented before/after',
     blockchainNote:
-      'Provenance of salvaged materials, on-site transformation, and the mosaic chapter will soon be verifiable on-chain. This Digital Deed tracks the project as it evolves.',
+      'Provenance of salvaged materials, on-site transformation, and the mosaic chapter are tracked in this Digital Deed as the project evolves.',
   },
 ]
 

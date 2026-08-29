@@ -5,10 +5,10 @@ import { ScrollTrigger } from 'gsap/ScrollTrigger'
 gsap.registerPlugin(ScrollTrigger)
 
 const benefits = [
-  { title: 'Corporate RWA-NFTs', desc: 'Turn corporate waste into public art, minted as institutional NFTs.' },
-  { title: 'Circular Investment', desc: 'Get up to 50% of service fees back as RE Tokens.' },
-  { title: 'Waste-as-Value', desc: 'Your waste fuels art and restoration through barter exchange.' },
-  { title: 'Impact Reporting', desc: 'Full blockchain traceability for ESG compliance.' },
+  { title: 'Corporate partnerships', desc: 'Turn corporate waste into public art and documented circular impact.' },
+  { title: 'Circular commissions', desc: 'Commission restorations, editions, or site-specific installations.' },
+  { title: 'Waste-as-value', desc: 'Your surplus material fuels craft and restoration through barter or exchange.' },
+  { title: 'Impact reporting', desc: 'Digital Deeds and transparent records for ESG and CSR storytelling.' },
 ]
 
 export default function BusinessesSection() {
@@ -39,11 +39,11 @@ export default function BusinessesSection() {
               Secure Your Legacy
             </h2>
             <p className="text-base text-[#6B7280] leading-relaxed mb-6">
-              Etch your brand into the digital and physical future. Every corporate partnership 
-              becomes a permanent record of environmental stewardship on the blockchain.
+              Etch your brand into Rome&apos;s circular future. Every partnership becomes
+              a documented record of environmental stewardship — craft you can show, not just claim.
             </p>
             <div className="flex gap-3">
-              <a href="https://re-token-1adb01.webflow.io/#businesses" target="_blank" rel="noopener noreferrer" className="btn-primary text-xs">Partner with RE</a>
+              <a href="/#community" className="btn-primary text-xs">Partner with RE</a>
               <a href="#projects" className="btn-outline text-xs">View Projects</a>
             </div>
           </div>

@@ -146,7 +146,7 @@ export default function DeedPage() {
               </div>
             )}
 
-            {/* Blockchain / next step */}
+            {/* Verification */}
             <div className="rounded-xl border border-dashed border-[#22C55E]/40 bg-[#F0FFF4] p-6">
               <p className="text-xs font-semibold uppercase tracking-wider text-[#22C55E] mb-2">
                 Verification path
