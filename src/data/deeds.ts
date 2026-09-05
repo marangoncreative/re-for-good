@@ -322,7 +322,7 @@ export const deeds: Deed[] = [
     ],
     economy: {
       fee: 'Full restoration completed (lid, body, drawers)',
-      costs: 'Skilled labor estimate · Rome ~€2,800–3,200',
+      costs: 'Skilled labor estimate · Rome market band for this scope',
       netCash: 'Illustrative craft value — not an invoice or quote',
       retained: 'Shellac, veneer and leather practice kept in the workshop',
       stock: 'Capacity for comparable desk restorations',
