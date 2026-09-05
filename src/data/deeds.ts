@@ -320,6 +320,15 @@ export const deeds: Deed[] = [
         note: 'Deep damage closed; residual pinholes left where a third putty pass would have overworked the piece.',
       },
     ],
+    economy: {
+      fee: 'Full restoration completed (lid, body, drawers)',
+      costs: 'Skilled labor estimate · Rome ~€2,800–3,200',
+      netCash: 'Illustrative craft value — not an invoice or quote',
+      retained: 'Shellac, veneer and leather practice kept in the workshop',
+      stock: 'Capacity for comparable desk restorations',
+      note:
+        'Logged for transparency as a skilled-labor estimate for this scope in Rome. Not a formal invoice, company statement, or offer for sale.',
+    },
     standards: 'Structural repair · Traditional shellac · Documented before / during / after',
     blockchainNote:
       'Lid, body, and drawer interventions are recorded in this Digital Deed. Open verification may follow when available.',
