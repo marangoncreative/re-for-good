@@ -235,6 +235,91 @@ export const deeds: Deed[] = [
     blockchainNote:
       'Provenance of salvaged materials, on-site transformation, and the mosaic chapter are tracked in this Digital Deed as the project evolves.',
   },
+  {
+    id: 'RE-LAB-2026-004',
+    title: 'Antique Writing Desk',
+    subtitle: 'Marquetry bureau · lid, body & drawers restored',
+    material: 'Hardwood with marquetry veneers · new leather writing surface · shellac',
+    workshop: 'RE Lab · Rome',
+    date: '2026',
+    status: 'Certified',
+    image: '/assets/desk-lid-leather-after.jpg',
+    images: [
+      '/assets/desk-body-in-progress.jpg',
+      '/assets/desk-lid-before-leather.jpg',
+      '/assets/desk-veneer-damage.jpg',
+      '/assets/desk-lid-planing.jpg',
+      '/assets/desk-lid-leather-after.jpg',
+      '/assets/desk-drawers-finish.jpg',
+      '/assets/desk-drawer-handle.jpg',
+    ],
+    imageLabels: [
+      'Body · in progress',
+      'Lid · before leather',
+      'Veneer damage',
+      'Lid · leveling',
+      'Lid · leather & shellac',
+      'Drawers · finish',
+      'Hardware mounted',
+    ],
+    summary:
+      'An antique marquetry writing desk restored end-to-end — broken rear leg rebuilt with wood dowels, damaged veneers replaced, hundreds of holes filled with judgment, compartments cleared of old paper, new leather fitted to the lid, and four coats of traditional shellac on lid, body, and drawers.',
+    interventions: [
+      {
+        title: 'Lid — leveling & leather',
+        detail:
+          'Inner and outer surfaces leveled; cracks filled; surface prepared for leather. New leather cut to fit and mounted. Heavily damaged and fallen veneers replaced.',
+      },
+      {
+        title: 'Lid — shellac finish',
+        detail: 'Four sanding stages, then four coats of shellac (gomalak) on the exterior.',
+      },
+      {
+        title: 'Body — structural repair',
+        detail: 'Broken right rear leg repaired with four wood dowels (kavela).',
+      },
+      {
+        title: 'Body — interior compartments',
+        detail:
+          'Paper lining removed from compartments; interiors cleaned, sanded, and finished with four coats of shellac.',
+      },
+      {
+        title: 'Body — holes & finish',
+        detail:
+          'Hundreds of holes filled. Shallow ones that reopened in sanding were refilled; deep holes closed fully; residual surface marks left as honest age. No third putty round — level was already sound. Four sanding stages and four coats of shellac; pulls remounted.',
+      },
+      {
+        title: 'Drawers',
+        detail:
+          'Breaks that blocked smooth travel repaired. Four sanding stages and four coats of shellac inside and out.',
+      },
+    ],
+    impacts: [
+      {
+        label: 'Circular economy',
+        value: 'Heirloom kept in use',
+        note: 'Full structural and surface restoration instead of replacement with new furniture.',
+      },
+      {
+        label: 'Carbon (estimate)',
+        value: '~30–50 kg CO₂e avoided',
+        note: 'Vs. manufacturing and shipping a comparable new writing desk. Full LCA forthcoming.',
+      },
+      {
+        label: 'Craft integrity',
+        value: 'Marquetry · leather · shellac',
+        note: 'Traditional materials and reversible shellac finish; veneer and leather renewed where loss was irreversible.',
+      },
+      {
+        label: 'Conservation judgment',
+        value: 'Honest surface age',
+        note: 'Deep damage closed; residual pinholes left where a third putty pass would have overworked the piece.',
+      },
+    ],
+    standards: 'Structural repair · Traditional shellac · Documented before / during / after',
+    blockchainNote:
+      'Lid, body, and drawer interventions are recorded in this Digital Deed. Open verification may follow when available.',
+  },
 ]
 
 export function getDeed(id: string): Deed | undefined {
