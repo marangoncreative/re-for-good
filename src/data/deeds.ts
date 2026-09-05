@@ -159,13 +159,13 @@ export const deeds: Deed[] = [
       },
     ],
     economy: {
-      fee: 'Paid restoration completed (cash)',
-      costs: 'Out-of-pocket costs covered materials plus machine & hand tools',
-      netCash: 'Repeatable capacity, not a one-off spend',
-      retained: 'Machine and hand tools kept in the workshop',
-      stock: 'Materials left for ~3 further jobs of the same type',
+      fee: 'Full restoration completed (structure, fill, shellac)',
+      costs: 'Skilled labor estimate · Rome market band for this scope',
+      netCash: 'Illustrative craft value — not an invoice or quote',
+      retained: 'Shellac and conservation practice kept in the workshop',
+      stock: 'Capacity for comparable heirloom restorations',
       note:
-        'Logged for transparency as craft capacity that can run again — not a formal invoice or company statement.',
+        'Logged for transparency as a skilled-labor estimate for this scope in Rome. Not a formal invoice, company statement, or offer for sale.',
     },
     standards: 'Museum-level conservation · Full reversibility · Documentary integrity',
     blockchainNote:
