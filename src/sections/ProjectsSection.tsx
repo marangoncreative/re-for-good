@@ -99,11 +99,7 @@ export default function ProjectsSection() {
                 </span>
                 <h3 className="text-2xl font-semibold text-[#1F2937] mb-4">7 HILLS OF ROMA</h3>
                 <p className="text-sm text-[#4B5563] leading-relaxed mb-3">
-                  Fallen <em>Pinus pinea</em> trees of Rome, Rome's plastic waste, and Rome's travertine stones come together in a 7-edition chess set for the Seven Hills of Rome.
-                </p>
-                <p className="text-sm text-[#4B5563] leading-relaxed mb-2">
-                  A collaboration between <strong>RE Lab</strong> and{' '}
-                  <a href="https://www.ridaje.com/" target="_blank" rel="noopener noreferrer" className="text-[#22C55E] font-semibold hover:underline">Ridaje Roma</a>.
+                  Standing-dead <em>Pinus pinea</em> cut at the ITS campus (trees felled by Ridaje), Rome's plastic waste, and Rome's travertine — a 7-edition chess set for the Seven Hills of Rome. Designed and produced by <strong>RE Lab</strong>.
                 </p>
                 <p className="text-sm text-[#4B5563] leading-relaxed mb-4">
                   Every material and process is documented in a Digital Deed. Only 7 editions exist.

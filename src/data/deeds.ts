@@ -38,8 +38,8 @@ export const deeds: Deed[] = [
     id: 'RE-LAB-2026-001',
     title: '7 Hills of Roma',
     subtitle: 'Limited-edition chess set · 7 of 7',
-    material: 'Pinus pinea · recycled Roman plastic · Roman travertine',
-    workshop: 'RE Lab × Ridaje Roma',
+    material: 'Standing-dead Pinus pinea (ITS campus) · recycled Roman plastic · Roman travertine',
+    workshop: 'RE Lab · Rome',
     date: '2026',
     status: 'Certified',
     image: '/assets/chess-hero.png',
@@ -50,11 +50,12 @@ export const deeds: Deed[] = [
       '/assets/chess-4.jpg',
     ],
     summary:
-      'Fallen Pinus pinea of Rome, Rome’s plastic waste, and Roman travertine transformed into a limited chess set for the Seven Hills — only seven editions exist.',
+      'Standing-dead Pinus pinea cut at the ITS campus, Rome’s plastic waste, and Roman travertine transformed into a limited chess set for the Seven Hills — only seven editions exist. Designed and produced by RE Lab.',
     interventions: [
       {
         title: 'Pinus pinea wood',
-        detail: 'Fallen umbrella pines of Rome shaped into wooden pieces — urban timber given a second life.',
+        detail:
+          'Wood sourced from standing-dead umbrella pines cut at the ITS campus (felled by Ridaje). Design and production by RE Lab.',
       },
       {
         title: 'Recycled Roman plastic',
@@ -68,16 +69,12 @@ export const deeds: Deed[] = [
         title: 'Seven Hills edition',
         detail: 'Seven unique editions — one for each of the legendary hills of Rome.',
       },
-      {
-        title: 'Collaborative craft',
-        detail: 'Produced with Ridaje Roma — local craft meeting regenerative design.',
-      },
     ],
     impacts: [
       {
         label: 'Circular economy',
         value: '3 waste streams upcycled',
-        note: 'Fallen trees, plastic waste, and stone offcuts turned into a collectible cultural object.',
+        note: 'Standing-dead campus pines, plastic waste, and stone offcuts turned into a collectible cultural object.',
       },
       {
         label: 'Carbon (estimate)',
