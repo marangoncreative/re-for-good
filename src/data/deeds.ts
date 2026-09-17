@@ -50,7 +50,7 @@ export const deeds: Deed[] = [
       '/assets/chess-4.jpg',
     ],
     summary:
-      'Standing-dead Pinus pinea cut at the ITS campus, Rome’s plastic waste, and Roman travertine transformed into a limited chess set for the Seven Hills — only seven editions exist. Designed and produced by RE Lab.',
+      'Standing-dead Pinus pinea from North of Rome, Rome’s plastic waste, and Roman travertine transformed into a limited chess set for the Seven Hills — only seven editions exist. Designed and produced by RE Lab.',
     interventions: [
       {
         title: 'Pinus pinea wood',

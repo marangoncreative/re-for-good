@@ -99,7 +99,7 @@ export default function ProjectsSection() {
                 </span>
                 <h3 className="text-2xl font-semibold text-[#1F2937] mb-4">7 HILLS OF ROMA</h3>
                 <p className="text-sm text-[#4B5563] leading-relaxed mb-3">
-                  Standing-dead <em>Pinus pinea</em> cut at the ITS campus (trees felled by Ridaje), Rome's plastic waste, and Rome's travertine — a 7-edition chess set for the Seven Hills of Rome. Designed and produced by <strong>RE Lab</strong>.
+                  Standing-dead <em>Pinus pinea</em> from North of Rome, Rome's plastic waste, and Rome's travertine — a 7-edition chess set for the Seven Hills of Rome. Designed and produced by <strong>RE Lab</strong>.
                 </p>
                 <p className="text-sm text-[#4B5563] leading-relaxed mb-4">
                   Every material and process is documented in a Digital Deed. Only 7 editions exist.
