@@ -273,7 +273,7 @@ export const deeds: Deed[] = [
       },
       {
         title: 'Lid — shellac finish',
-        detail: 'Four sanding stages, then four coats of shellac (gomalak) on the exterior.',
+        detail: 'Four sanding stages, then four coats of shellac on the exterior.',
       },
       {
         title: 'Body — structural repair',
