@@ -382,7 +382,7 @@ export const deeds: Deed[] = [
       {
         title: 'Finish',
         detail:
-          'The existing finish was removed completely. Four coats of traditional shellac (gomalak) were applied.',
+          'The existing finish was removed completely. Four coats of traditional shellac were applied.',
       },
       {
         title: 'Edition & custody',
