@@ -330,6 +330,101 @@ export const deeds: Deed[] = [
     blockchainNote:
       'Lid, body, and drawer interventions are recorded in this Digital Deed. Open verification may follow when available.',
   },
+  {
+    id: 'RE-LAB-2026-005',
+    title: 'Cubic Marquetry Side Table',
+    subtitle: 'Limited edition · No. 20 of a Rome series · family collection',
+    material: 'Wenge and iroko cubic marquetry · mahogany restoration veneer · shellac',
+    workshop: 'RE Lab · Rome',
+    date: '2026',
+    status: 'Certified',
+    image: '/assets/table20-hero.jpg',
+    images: [
+      '/assets/table20-hero.jpg',
+      '/assets/table20-front.jpg',
+      '/assets/table20-top-after.jpg',
+      '/assets/table20-knob.jpg',
+      '/assets/table20-stamp.jpg',
+      '/assets/table20-mark.jpg',
+      '/assets/table20-before.jpg',
+      '/assets/table20-patches.jpg',
+      '/assets/table20-in-progress.jpg',
+    ],
+    imageLabels: [
+      'After · three-quarter',
+      'After · front',
+      'Top · restored cubes',
+      'Drawer pull',
+      'Edition stamp · 20',
+      'Underside mark · 20',
+      'Before · lost veneer',
+      'In progress · donor patches',
+      'In progress · layout',
+    ],
+    summary:
+      'A Rome-made limited side table — edition No. 20 — returned to original-day solidity. Constructive repairs restored the structure; tabletop losses were infilled with same-family veneer from another piece of nearby years rather than a search for identical stock. The object remains in a family collection and continues as cultural heritage.',
+    interventions: [
+      {
+        title: 'Constructive repair',
+        detail:
+          'Structural work brought the table back to the solidity it had when first made — original construction logic kept, not a rebuild as a new object.',
+      },
+      {
+        title: 'Cubic marquetry losses',
+        detail:
+          'Damaged cubes on the tumbling-block top were restored with veneer taken from another furniture piece of the same family and nearby years, instead of hunting an exact original match.',
+      },
+      {
+        title: 'Species & tone',
+        detail:
+          'The piece is wenge and iroko. Restoration veneer is mahogany. A slight tone difference was evened so the cubes read as one surface again.',
+      },
+      {
+        title: 'Finish',
+        detail:
+          'The existing finish was removed completely. Four coats of traditional shellac (gomalak) were applied.',
+      },
+      {
+        title: 'Edition & custody',
+        detail:
+          'Stamped and marked as No. 20 of a limited Rome production. The table stays in the family collection — documented so it can keep living as heritage, not as disposable furniture.',
+      },
+    ],
+    impacts: [
+      {
+        label: 'Circular economy',
+        value: 'Edition kept in use',
+        note: 'Limited-series table conserved with donor-family veneer instead of replacement or new production.',
+      },
+      {
+        label: 'Carbon (estimate)',
+        value: '~25–45 kg CO₂e avoided',
+        note: 'Vs. manufacturing and shipping a comparable new hardwood side table. Full LCA forthcoming.',
+      },
+      {
+        label: 'Cultural heritage',
+        value: 'No. 20 · Rome series',
+        note: 'A numbered local edition remains in family custody; marks and edition identity preserved.',
+      },
+      {
+        label: 'Craft integrity',
+        value: 'Donor veneer · shellac',
+        note: 'Same-family, nearby-year veneer and reversible four-coat shellac — honest repair, not a fake original match.',
+      },
+    ],
+    economy: {
+      fee: 'Full restoration completed (structure, marquetry, shellac)',
+      costs: 'Skilled labor estimate · Rome market band for this scope',
+      netCash: 'Illustrative craft value — not an invoice or quote',
+      retained: 'Marquetry matching and shellac practice kept in the workshop',
+      stock: 'Capacity for comparable limited-edition table restorations',
+      note:
+        'Logged for transparency as a skilled-labor estimate for this scope in Rome. Not a formal invoice, company statement, or offer for sale.',
+    },
+    standards: 'Structural repair · Same-family donor veneer · Traditional shellac · Documented before / during / after',
+    blockchainNote:
+      'Structure, donor-veneer cubes, finish, and edition No. 20 marks are recorded in this Digital Deed. Open verification may follow when available.',
+  },
 ]
 
 export function getDeed(id: string): Deed | undefined {
